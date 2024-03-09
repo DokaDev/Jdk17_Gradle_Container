@@ -8,4 +8,4 @@ services:
       - "8080:8080"
     volumes:
       - .:/app
-    command: "./gradlew bootRun"
+    command: "java -jar ./build/libs/Jdk17_Gradle_Container-1.0-SNAPSHOT.jar"

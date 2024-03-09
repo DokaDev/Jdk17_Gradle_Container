@@ -5,4 +5,4 @@ COPY . /app
 RUN chmod +x ./gradlew
 RUN ./gradlew build
 
-CMD ["java", "-jar", "build/libs/gradle-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "Jdk17_Gradle_Container-1.0-SNAPSHOT.jar"]
